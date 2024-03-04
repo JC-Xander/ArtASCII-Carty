@@ -9,14 +9,13 @@
 
 @author: J-Xander<br>
 @since:  2024/03/03
-@version: 1.0.0
+@date:   2024/03/03
+@version: 1.1.0
 
 ## Descripción
 Prototipo para generar letras de texto gigante aplicando un estilo que encontre en internet llamado Carty.
 
-Carty Descompone el texto enviado y sustitulle cada caracter por su representación en "arte ASCII" y luego lo imprime entre (``` ```), Perfecto para ser utilizado en archivos MarkDown.
-
-Si se le envia un caracter desconocido el programá detendra su ejecución y no retornara nada.
+Carty Descompone el texto enviado y sustitulle cada caracter por su representación en "arte ASCII" y luego lo imprime entre (` ``` ``` `), Perfecto para ser utilizado en archivos MarkDown.
 
 ## Caracteres Permitidos
 
@@ -25,7 +24,9 @@ Si se le envia un caracter desconocido el programá detendra su ejecución y no 
 - De la "a" a la "z" Incluyendo la "ñ"
 
 #### Caracteres Especiales
-- "-", "_"
+- "-", "_", ",", ";", ":", ".", "(", ")" "!" " ". "\t" "\0"
 
-Nota: Todos los caracteres no mencionados anteriormente no son reconocidos por ejemplo " "(espacio), ':', ',', '/', etc.
+Nota: Todos los caracteres no mencionados anteriormente, no son reconocidos.
+
+ por ejemplo:, '#', '%', '/', etc.
 
