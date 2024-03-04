@@ -7,7 +7,7 @@ public class Fuente {
 	private String TextoUnido;
 
 	public Fuente(String texto) {
-		this.Abecedario = new ASCIICharacter[75];
+		this.Abecedario = new ASCIICharacter[76];
 
 		this.Abecedario[0] = new ASCIICharacter('\t', """
 				░░░░░░░░
@@ -30,14 +30,14 @@ public class Fuente {
 				░░""");
 
 		this.Abecedario[2] = new ASCIICharacter('!', """
-				╔╗
-				║║
-				║║
-				╚╝
-				╔╗
-				╚╝
-				░░
-				░░""");
+				╔╗░
+				║║░
+				║║░
+				╚╝░
+				╔╗░
+				╚╝░
+				░░░
+				░░░""");
 
 		this.Abecedario[3] = new ASCIICharacter('(', """
 				░░╔═╗
@@ -209,7 +209,17 @@ public class Fuente {
 				░░╝░
 				░░░░""");
 
-		this.Abecedario[20] = new ASCIICharacter('A', """
+		this.Abecedario[20] = new ASCIICharacter('?', """
+				╔═══╗
+				║╔═╗║
+				╚╝╔╝║
+				░░║╔╝
+				░░╔╗░
+				░░╚╝░
+				░░░░░
+				░░░░░""");
+
+		this.Abecedario[21] = new ASCIICharacter('A', """
 				╔═══╗
 				║╔═╗║
 				║║─║║
@@ -219,7 +229,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[21] = new ASCIICharacter('B', """
+		this.Abecedario[22] = new ASCIICharacter('B', """
 				╔══╗
 				║╔╗║
 				║╚╝╚╗
@@ -229,7 +239,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[22] = new ASCIICharacter('C', """
+		this.Abecedario[23] = new ASCIICharacter('C', """
 				╔═══╗
 				║╔═╗║
 				║║─╚╝
@@ -239,7 +249,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[23] = new ASCIICharacter('D', """
+		this.Abecedario[24] = new ASCIICharacter('D', """
 				╔═══╗
 				╚╗╔╗║
 				░║║║║
@@ -249,7 +259,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[24] = new ASCIICharacter('E', """
+		this.Abecedario[25] = new ASCIICharacter('E', """
 				╔═══╗
 				║╔══╝
 				║╚══╗
@@ -259,7 +269,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[25] = new ASCIICharacter('F', """
+		this.Abecedario[26] = new ASCIICharacter('F', """
 				╔═══╗
 				║╔══╝
 				║╚══╗
@@ -269,7 +279,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[26] = new ASCIICharacter('G', """
+		this.Abecedario[27] = new ASCIICharacter('G', """
 				╔═══╗
 				║╔═╗║
 				║║─╚╝
@@ -279,7 +289,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[27] = new ASCIICharacter('H', """
+		this.Abecedario[28] = new ASCIICharacter('H', """
 				╔╗─╔╗
 				║║─║║
 				║╚═╝║
@@ -289,7 +299,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[28] = new ASCIICharacter('I', """
+		this.Abecedario[29] = new ASCIICharacter('I', """
 				╔══╗
 				╚╣╠╝
 				░║║░
@@ -299,7 +309,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[29] = new ASCIICharacter('J', """
+		this.Abecedario[30] = new ASCIICharacter('J', """
 				░░╔╗
 				░░║║
 				░░║║
@@ -309,7 +319,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[30] = new ASCIICharacter('K', """
+		this.Abecedario[31] = new ASCIICharacter('K', """
 				╔╗╔═╗
 				║║║╔╝
 				║╚╝╝
@@ -319,7 +329,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[31] = new ASCIICharacter('L', """
+		this.Abecedario[32] = new ASCIICharacter('L', """
 				╔╗░░░
 				║║░░░
 				║║░░░
@@ -329,7 +339,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[32] = new ASCIICharacter('M', """
+		this.Abecedario[33] = new ASCIICharacter('M', """
 				╔═╗╔═╗
 				║║╚╝║║
 				║╔╗╔╗║
@@ -339,7 +349,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[33] = new ASCIICharacter('N', """
+		this.Abecedario[34] = new ASCIICharacter('N', """
 				╔═╗─╔╗
 				║║╚╗║║
 				║╔╗╚╝║
@@ -349,7 +359,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[34] = new ASCIICharacter('O', """
+		this.Abecedario[35] = new ASCIICharacter('O', """
 				╔═══╗
 				║╔═╗║
 				║║─║║
@@ -359,7 +369,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[35] = new ASCIICharacter('P', """
+		this.Abecedario[36] = new ASCIICharacter('P', """
 				╔═══╗
 				║╔═╗║
 				║╚═╝║
@@ -369,7 +379,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[36] = new ASCIICharacter('Q', """
+		this.Abecedario[37] = new ASCIICharacter('Q', """
 				╔═══╗
 				║╔═╗║
 				║║─║║
@@ -380,7 +390,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[37] = new ASCIICharacter('R', """
+		this.Abecedario[38] = new ASCIICharacter('R', """
 				╔═══╗
 				║╔═╗║
 				║╚═╝║
@@ -390,7 +400,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[38] = new ASCIICharacter('S', """
+		this.Abecedario[39] = new ASCIICharacter('S', """
 				╔═══╗
 				║╔═╗║
 				║╚══╗
@@ -400,7 +410,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[39] = new ASCIICharacter('T', """
+		this.Abecedario[40] = new ASCIICharacter('T', """
 				╔════╗
 				║╔╗╔╗║
 				╚╝║║╚╝
@@ -410,7 +420,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[40] = new ASCIICharacter('U', """
+		this.Abecedario[41] = new ASCIICharacter('U', """
 				╔╗─╔╗
 				║║─║║
 				║║─║║
@@ -420,7 +430,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[41] = new ASCIICharacter('V', """
+		this.Abecedario[42] = new ASCIICharacter('V', """
 				╔╗──╔╗
 				║╚╗╔╝║
 				╚╗║║╔╝
@@ -430,7 +440,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[42] = new ASCIICharacter('W', """
+		this.Abecedario[43] = new ASCIICharacter('W', """
 				╔╗╔╗╔╗
 				║║║║║║
 				║║║║║║
@@ -440,7 +450,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[43] = new ASCIICharacter('X', """
+		this.Abecedario[44] = new ASCIICharacter('X', """
 				╔═╗╔═╗
 				╚╗╚╝╔╝
 				░╚╗╔╝░
@@ -450,7 +460,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[44] = new ASCIICharacter('Y', """
+		this.Abecedario[45] = new ASCIICharacter('Y', """
 				╔╗──╔╗
 				║╚╗╔╝║
 				╚╗╚╝╔╝
@@ -460,7 +470,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[45] = new ASCIICharacter('Z', """
+		this.Abecedario[46] = new ASCIICharacter('Z', """
 				╔════╗
 				╚══╗═║
 				░░╔╝╔╝
@@ -470,7 +480,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[46] = new ASCIICharacter('_', """
+		this.Abecedario[47] = new ASCIICharacter('_', """
 				░░░░
 				░░░░
 				░░░░
@@ -481,7 +491,7 @@ public class Fuente {
 				░░░░
 				""");
 
-		this.Abecedario[47] = new ASCIICharacter('a', """
+		this.Abecedario[48] = new ASCIICharacter('a', """
 				░░░░
 				░░░░
 				╔══╗
@@ -491,7 +501,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[48] = new ASCIICharacter('b', """
+		this.Abecedario[49] = new ASCIICharacter('b', """
 				╔╗░░
 				║║░░
 				║╚═╗
@@ -501,7 +511,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[49] = new ASCIICharacter('c', """
+		this.Abecedario[50] = new ASCIICharacter('c', """
 				░░░░
 				░░░░
 				╔══╗
@@ -511,7 +521,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[50] = new ASCIICharacter('d', """
+		this.Abecedario[51] = new ASCIICharacter('d', """
 				░░╔╗
 				░░║║
 				╔═╝║
@@ -521,7 +531,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[51] = new ASCIICharacter('e', """
+		this.Abecedario[52] = new ASCIICharacter('e', """
 				░░░░
 				░░░░
 				╔══╗
@@ -531,7 +541,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[52] = new ASCIICharacter('f', """
+		this.Abecedario[53] = new ASCIICharacter('f', """
 				░╔═╗
 				░║╔╝
 				╔╝╚╗
@@ -541,7 +551,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[53] = new ASCIICharacter('g', """
+		this.Abecedario[54] = new ASCIICharacter('g', """
 				░░░░
 				░░░░
 				╔══╗
@@ -551,7 +561,7 @@ public class Fuente {
 				╔═╝║
 				╚══╝""");
 
-		this.Abecedario[54] = new ASCIICharacter('h', """
+		this.Abecedario[55] = new ASCIICharacter('h', """
 				╔╗░░
 				║║░░
 				║╚═╗
@@ -561,7 +571,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[55] = new ASCIICharacter('i', """
+		this.Abecedario[56] = new ASCIICharacter('i', """
 				░░
 				░░
 				╔╗
@@ -571,7 +581,7 @@ public class Fuente {
 				░░
 				░░""");
 
-		this.Abecedario[56] = new ASCIICharacter('j', """
+		this.Abecedario[57] = new ASCIICharacter('j', """
 				░░░
 				░╔╗
 				░╚╝
@@ -581,7 +591,7 @@ public class Fuente {
 				╔╝║
 				╚═╝""");
 
-		this.Abecedario[57] = new ASCIICharacter('k', """
+		this.Abecedario[58] = new ASCIICharacter('k', """
 				╔╗░░
 				║║░░
 				║║╔╗
@@ -591,7 +601,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[58] = new ASCIICharacter('l', """
+		this.Abecedario[59] = new ASCIICharacter('l', """
 				╔╗░
 				║║░
 				║║░
@@ -601,7 +611,7 @@ public class Fuente {
 				░░░
 				░░░""");
 
-		this.Abecedario[59] = new ASCIICharacter('m', """
+		this.Abecedario[60] = new ASCIICharacter('m', """
 				░░░░
 				░░░░
 				╔╗╔╗
@@ -611,7 +621,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[60] = new ASCIICharacter('n', """
+		this.Abecedario[61] = new ASCIICharacter('n', """
 				░░░░
 				░░░░
 				╔═╗░
@@ -621,7 +631,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[61] = new ASCIICharacter('o', """
+		this.Abecedario[62] = new ASCIICharacter('o', """
 				░░░░
 				░░░░
 				╔══╗
@@ -631,7 +641,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[62] = new ASCIICharacter('p', """
+		this.Abecedario[63] = new ASCIICharacter('p', """
 				░░░░
 				░░░░
 				╔══╗
@@ -642,7 +652,7 @@ public class Fuente {
 				╚╝░░
 				""");
 
-		this.Abecedario[63] = new ASCIICharacter('q', """
+		this.Abecedario[64] = new ASCIICharacter('q', """
 				░░░░
 				░░░░
 				╔══╗
@@ -652,7 +662,7 @@ public class Fuente {
 				░░║║
 				░░╚╝""");
 
-		this.Abecedario[64] = new ASCIICharacter('r', """
+		this.Abecedario[65] = new ASCIICharacter('r', """
 				░░░
 				░░░
 				╔═╗
@@ -662,7 +672,7 @@ public class Fuente {
 				░░░
 				░░░""");
 
-		this.Abecedario[65] = new ASCIICharacter('s', """
+		this.Abecedario[66] = new ASCIICharacter('s', """
 				░░░░
 				░░░░
 				╔══╗
@@ -672,7 +682,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[66] = new ASCIICharacter('t', """
+		this.Abecedario[67] = new ASCIICharacter('t', """
 				░╔╗░
 				╔╝╚╗
 				╚╗╔╝
@@ -682,7 +692,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[67] = new ASCIICharacter('u', """
+		this.Abecedario[68] = new ASCIICharacter('u', """
 				░░░░
 				░░░░
 				╔╗╔╗
@@ -692,7 +702,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[68] = new ASCIICharacter('v', """
+		this.Abecedario[69] = new ASCIICharacter('v', """
 				░░░░
 				░░░░
 				╔╗╔╗
@@ -702,7 +712,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[69] = new ASCIICharacter('w', """
+		this.Abecedario[70] = new ASCIICharacter('w', """
 				░░░░░░
 				░░░░░░
 				╔╗╔╗╔╗
@@ -712,7 +722,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[70] = new ASCIICharacter('x', """
+		this.Abecedario[71] = new ASCIICharacter('x', """
 				░░░░
 				░░░░
 				╔╗╔╗
@@ -722,7 +732,7 @@ public class Fuente {
 				░░░░
 				░░░░""");
 
-		this.Abecedario[71] = new ASCIICharacter('y', """
+		this.Abecedario[72] = new ASCIICharacter('y', """
 				░░░░░
 				░░░░░
 				╔╗─╔╗
@@ -732,7 +742,7 @@ public class Fuente {
 				╔═╝║░
 				╚══╝░""");
 
-		this.Abecedario[72] = new ASCIICharacter('z', """
+		this.Abecedario[73] = new ASCIICharacter('z', """
 				░░░░░
 				░░░░░
 				╔═══╗
@@ -742,7 +752,7 @@ public class Fuente {
 				░░░░░
 				░░░░░""");
 
-		this.Abecedario[73] = new ASCIICharacter('Ñ', """
+		this.Abecedario[74] = new ASCIICharacter('Ñ', """
 				╔═╗─╔╗
 				║║╚╗║║
 				║╔╗╚╝║
@@ -752,7 +762,7 @@ public class Fuente {
 				░░░░░░
 				░░░░░░""");
 
-		this.Abecedario[74] = new ASCIICharacter('ñ', """
+		this.Abecedario[75] = new ASCIICharacter('ñ', """
 				░░░░
 				░══░
 				╔═╗░
