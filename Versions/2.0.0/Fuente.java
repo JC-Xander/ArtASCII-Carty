@@ -1,5 +1,3 @@
-package programLibraries;
-
 /**
  * Conjunto de {@link ASCIICharacter} que en conjunto conforma un alfabeto el cual esta odenado
  * siguiendo la numerocion de los simbolos ASCII en forma ASCEDENTE par poder realizar una busqueda

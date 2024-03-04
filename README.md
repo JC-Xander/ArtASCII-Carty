@@ -1,21 +1,23 @@
 ```
-░█████╗░░█████╗░██████╗░████████╗██╗░░░██╗
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝╚██╗░██╔╝
-██║░░╚═╝███████║██████╔╝░░░██║░░░░╚████╔╝░
-██║░░██╗██╔══██║██╔══██╗░░░██║░░░░░╚██╔╝░░
-╚█████╔╝██║░░██║██║░░██║░░░██║░░░░░░██║░░░
-░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░░░╚═╝░░░
+╔═══╗─────╔╗
+║╔═╗║────╔╝╚╗
+║║─╚╬══╦═╬╗╔╬╗─╔╗
+║║─╔╣╔╗║╔╝║║║║─║║
+║╚═╝║╔╗║║─║╚╣╚═╝║
+╚═══╩╝╚╩╝─╚═╩═╗╔╝
+────────────╔═╝║
+────────────╚══╝
 ```
 
 @author: J-Xander<br>
-@since:  2024/03/04
+@since:  2024/02/04
 @date:   2024/03/03
-@version: 1.2.0
+@version: 2.0.0
 
 ## Descripción
 Prototipo para generar letras de texto gigante aplicando un estilo que encontre en internet llamado Carty.
 
-Carty Descompone el texto enviado y sustitulle cada caracter por su representación en "arte ASCII" y luego lo imprime entre (` ``` ``` `), Perfecto para ser utilizado en archivos MarkDown.
+Carty Descompone el texto enviado y sustitulle cada caracter por su representación en "arte ASCII" y luego imprime el resultado final.
 
 ## Caracteres del abecedario Carty
 

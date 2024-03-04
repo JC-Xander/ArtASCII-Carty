@@ -1,4 +1,3 @@
-package programLibraries;
 /**
  * Clase Base la cual se encarga de almacenar el modelo Ascii junto al caracter al que representa en el abecedario.
  * @author J-Xander.

@@ -1,5 +1,3 @@
-package programLibraries;
-
 public class Fuente {
 
 	private ASCIICharacter[] Abecedario;

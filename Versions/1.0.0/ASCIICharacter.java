@@ -1,5 +1,3 @@
-package programLibraries;
-
 public class ASCIICharacter {
 	private char charAscii;
 	private String[] ArrayDiseño;
