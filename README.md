@@ -10,9 +10,9 @@
 ```
 
 @author: J-Xander<br>
-@since:  2024/02/04
-@date:   2024/03/03
-@version: 2.0.0
+@since:  2024/02/04<br>
+@date:   2024/03/03<br>
+@version: 2.0.0<br>
 
 ## Descripción
 Prototipo para generar letras de texto gigante aplicando un estilo que encontre en internet llamado Carty.
